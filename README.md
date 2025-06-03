@@ -40,9 +40,7 @@ This is a sample project demonstrating how to integrate with the STN API. It inc
    npm start
    ```
 
-5. Running the server should print out a local tunnel url that is pointing to your local server. Copy the url and follow set up [here](https://www.thescreentimenetwork.com/api/webhooks) to forward events to your local server.
-
-6. Send a test event from the dashboard and you should see console output and hear a "ding" noise.
+5. Visit http://localhost:8000 to see a breakdown of your historical screen time data as well as your screen time today.
 
 ### Development Mode
 
