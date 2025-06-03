@@ -88,7 +88,7 @@ function App() {
       {/* Today Section */}
       <div className="flex flex-col items-center mb-8 mt-16">
         <div className="uppercase text-gray-500 text-sm tracking-widest mb-2">
-          Screen Time
+          {today?.handle}'s Screen Time
         </div>
         <div className="relative flex items-baseline justify-center">
           <span className="text-[8rem] leading-none font-extrabold tracking-tight text-black select-none">
@@ -185,6 +185,18 @@ function App() {
           </div>
           <div className="text-xs text-gray-500 mt-1">This Year</div>
         </div>
+      </div>
+
+      <div className="mt-8 w-full text-[10px] text-terminal-blue text-center">
+        SCREEN TIME VISUALIZER - POWERED BY{" "}
+        <a
+          href="https://getclearspace.com"
+          className="underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          CLEARSPACE
+        </a>
       </div>
     </div>
   );
