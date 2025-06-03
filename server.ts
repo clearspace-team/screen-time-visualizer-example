@@ -2,8 +2,8 @@ import express, { Request, Response } from "express";
 import path from "path";
 
 // --- Constants --- //
-// TODO: Insert your API key and webhook secret here
 const API_URL = "https://api.thescreentimenetwork.com/v1"; // The Screen Time Network API URL
+// TODO: Insert your API key and handle here
 const API_KEY = "your_api_key";
 const YOUR_HANDLE: string = "your_stn_handle"; // Your Screen Time Network handle
 
